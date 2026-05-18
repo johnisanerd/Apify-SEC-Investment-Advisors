@@ -1,7 +1,7 @@
 """
 SEC Investment Advisors Scraper: A Quick Start Example
-See more at: https://apify.com/johnvc/ApifySECInvestmentAdvisors?fpr=9n7kx3
-Input schema: https://apify.com/johnvc/ApifySECInvestmentAdvisors/input-schema?fpr=9n7kx3
+See more at: https://apify.com/johnvc/SECInvestmentAdvisorContacts?fpr=9n7kx3
+Input schema: https://apify.com/johnvc/SECInvestmentAdvisorContacts/input-schema?fpr=9n7kx3
 
 This script demonstrates how to scrape SEC investment advisor and financial
 professional data using the Investment Finance Professionals scraper on Apify.
@@ -25,11 +25,11 @@ run_input = {
     "query_type": "contacts",
     "firm_state": "CA",
     "firm_city": "San Francisco",
-    "contacts_limit": 25,
+    "contacts_limit": 500,
 }
 
 # Run the Actor and wait for it to finish
-run = client.actor("johnvc/ApifySECInvestmentAdvisors").call(run_input=run_input)
+run = client.actor("johnvc/SECInvestmentAdvisorContacts").call(run_input=run_input)
 
 # Fetch and print Actor results from the run's dataset
 for item in client.dataset(run["defaultDatasetId"]).iterate_items():
