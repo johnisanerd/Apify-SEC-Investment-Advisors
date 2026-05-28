@@ -198,4 +198,4 @@ Each run returns a dataset of structured JSON objects. Sample output for contact
 
 *Transform your data collection with the most reliable and efficient scraper on the market.*
 
-Last Updated: 2026.04.15
+Last Updated: 2026.05.29
