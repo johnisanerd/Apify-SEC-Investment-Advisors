@@ -1,10 +1,11 @@
 [project]
-name = "apify-sec-investment-advisors"
+name = "apify-sec-investment-advisors-api"
 version = "0.1.0"
-description = "Example usage of the SEC Investment Advisors and Finance Professionals Apify actor"
-requires-python = ">=3.9"
+description = "Example client for the SEC Investment Advisors API Apify Actor"
+readme = "README.md"
+requires-python = ">=3.11"
 dependencies = [
-    "apify-client>=1.8.1",
+    "apify-client>=3.0.0",
     "python-dotenv>=1.0.0",
 ]
 
