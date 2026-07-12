@@ -310,4 +310,4 @@ More help: https://docs.apify.com/platform/integrations/mcp
 
 *Use the SEC Investment Advisors API to power prospecting, compliance research, and due diligence with reliable, structured data.*
 
-Last Updated: 2026.07.11
+Last Updated: 2026.07.12
