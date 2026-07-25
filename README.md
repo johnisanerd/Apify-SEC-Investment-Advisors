@@ -250,7 +250,7 @@ On claude.ai you add Apify as a connector, then enable just this Actor's tool.
 4. Alternatively, choose **Add custom connector** and paste the full MCP URL `https://mcp.apify.com/?tools=actors,docs,johnvc/SECInvestmentAdvisorContacts`, using OAuth when prompted.
 5. Ask Claude to run the SEC Investment Advisors API.
 
-Open Claude on the web: https://claude.ai
+Open Claude on the web: https://claude.ai/referral/uIlpa7nPLg
 
 ## Install in Cursor
 
